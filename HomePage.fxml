@@ -1,24 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<<<<<<< HEAD
 <?import javafx.scene.control.Button?>
+=======
+>>>>>>> origin/main
 <?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<<<<<<< HEAD
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
+=======
+>>>>>>> origin/main
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="471.0" prefWidth="667.0" style="-fx-background-color: #004c63;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cdac.kms.HomeController">
    <children>
+<<<<<<< HEAD
       <ImageView fitHeight="118.0" fitWidth="119.0" layoutY="-15.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../icons/logo.gif" />
          </image>
       </ImageView>
+=======
+      <ImageView fitHeight="118.0" fitWidth="119.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/intDesign3.gif" />
+         </image>
+      </ImageView>
+      <Hyperlink layoutX="322.0" layoutY="24.0" text="ABOUT" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="387.0" layoutY="24.0" text="SERVICES" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink fx:id="portfolioPage" layoutX="475.0" layoutY="24.0" onAction="#clickButton" text="PORTFOLIO" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="575.0" layoutY="24.0" text="CONTACT" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="264.0" layoutY="24.0" text="HOME" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Hyperlink>
+>>>>>>> origin/main
       <ImageView fitHeight="385.0" fitWidth="332.0" layoutX="302.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../icons/intDesign.gif" />
@@ -39,6 +78,7 @@
             <Font name="Arial Black" size="35.0" />
          </font>
       </Text>
+<<<<<<< HEAD
       <Button fx:id="quitButton" layoutX="639.0" mnemonicParsing="false" onAction="#clickButton" style="-fx-background-color: #004c63;" text="X">
          <font>
             <Font size="14.0" />
@@ -92,5 +132,9 @@
                </children>
             </GridPane>
          </children></HBox>
+=======
+      <Text fx:id="firstNameText" layoutX="62.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="lastNameText" layoutX="62.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+>>>>>>> origin/main
    </children>
 </AnchorPane>

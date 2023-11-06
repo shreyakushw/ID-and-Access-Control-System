@@ -100,6 +100,14 @@
          </font>
       </Text>
       <TextField fx:id="passwordEntry" layoutX="312.0" layoutY="374.0" onAction="#buttonClick" prefHeight="25.0" prefWidth="196.0" />
+<<<<<<< HEAD
+=======
+      <ImageView fitHeight="134.0" fitWidth="157.0" layoutX="28.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/intDesign3.gif" />
+         </image>
+      </ImageView>
+>>>>>>> origin/main
       <Button fx:id="signupButton" layoutX="86.0" layoutY="343.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="25.0" prefWidth="97.0" text="SIGN UP">
          <font>
             <Font size="19.0" />
@@ -122,6 +130,7 @@
             <Font name="Arial Black" size="30.0" />
          </font>
       </Text>
+<<<<<<< HEAD
       <Button fx:id="quitButton" layoutX="628.0" layoutY="-4.0" mnemonicParsing="false" onAction="#buttonClick" style="-fx-background-color: #004c63;" text="X">
          <font>
             <Font size="14.0" />
@@ -132,5 +141,7 @@
             <Image url="@../icons/logo.gif" />
          </image>
       </ImageView>
+=======
+>>>>>>> origin/main
    </children>
 </AnchorPane>
