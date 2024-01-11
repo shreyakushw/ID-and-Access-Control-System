@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 0.3155%, #64a4e0 0.0%, #004d65 100.0%);" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" blendMode="SRC_ATOP" contentDisplay="CENTER" layoutX="377.0" layoutY="200.0" prefHeight="25.0" prefWidth="97.0" text="LOGIN">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField blendMode="SRC_ATOP" layoutX="416.0" layoutY="234.0">
+         <effect>
+            <Blend mode="SRC_ATOP" />
+         </effect></TextField>
+      <Text blendMode="SRC_ATOP" layoutX="348.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username :" textAlignment="CENTER" />
+      <TextField blendMode="SRC_ATOP" layoutX="416.0" layoutY="272.0">
+         <effect>
+            <Blend mode="SRC_ATOP" />
+         </effect></TextField>
+      <Text blendMode="SRC_ATOP" layoutX="352.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password :" />
+      <Text blendMode="SRC_ATOP" layoutX="37.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TRANSFORM">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font>
+      </Text>
+      <Text blendMode="SRC_ATOP" layoutX="37.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YOUR">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font>
+      </Text>
+      <Text blendMode="SRC_ATOP" layoutX="37.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SPACE">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" blendMode="DARKEN" height="76.0" layoutX="463.0" layoutY="313.0" strokeType="INSIDE" width="112.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="0.0031545997042009555">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.39257094264030457" green="0.6429589986801147" blue="0.8771929740905762" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.3019607961177826" blue="0.3960784375667572" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+         <effect>
+            <Blend mode="DARKEN" />
+         </effect>
+         <fill>
+            <LinearGradient endX="1.0" endY="0.0031545997042009555">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.39257094264030457" green="0.6429589986801147" blue="0.8771929740905762" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.2980392277240753" blue="0.3803921639919281" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <ImageView blendMode="SRC_ATOP" fitHeight="150.0" fitWidth="112.0" layoutX="361.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/intDesign3.gif" />
+         </image>
+      </ImageView>
+     <!-- <ImageView fitHeight="121.0" fitWidth="149.0" layoutX="26.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/intDesign2.gif" />
+         </image>
+      </ImageView> -->
+   </children>
+</AnchorPane>
