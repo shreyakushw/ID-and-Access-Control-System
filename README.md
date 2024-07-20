@@ -8,6 +8,18 @@ When registering, users must provide details including Name, Date of Birth, Gend
 
 The project uses Java for coding, JavaFX for designing the application, and MySQL for storing user registration information and login credentials.
 
+## Screenshots
+
+### Login Screen
+![Login Screen](screenshots/loginpage.png)
+
+### Registration Screen
+![Registration Screen](screenshots/registration_page.png)
+
+### Home Screen
+![Home Screen](screenshots/homepage.png)
+
+
 ## Implementation Details
 
 ### Creating a Maven Project
